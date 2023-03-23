@@ -1,10 +1,13 @@
-import Button from "@mui/material/Button";
+import * as React from "react";
+import "./App.css";
+import CountryTable from "./components/CountryTable";
+import Header from "./components/Header/Header";
 
 function App() {
-
   return (
     <div className="App">
-      <Button variant="contained">Hello World</Button>
+      <Header />
+      <CountryTable />
     </div>
   );
 }
